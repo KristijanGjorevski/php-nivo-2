@@ -21,10 +21,10 @@
         </thead>
         <tbody>
             <tr>
-                <td><?= $student['id'] ?? 'Not found' ?></td>
-                <td><?= $student['ime'] ?? 'Not found' ?></td>
-                <td><?= $student['prezime'] ?? 'Not found' ?></td>
-                <td><?= $student['godini'] ?? 'Not found' ?></td>
+                <td><?= $student['id']?></td>
+                <td><?= $student['ime']?></td>
+                <td><?= $student['prezime']?></td>
+                <td><?= $student['godini']?></td>
             </tr>
         </tbody>
     </table>
